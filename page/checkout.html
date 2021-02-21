@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Đặt hàng</title>
+    <link href="/css/page/checkout/main.css" rel="stylesheet" />
+    <link href="/css/page/checkout/checkout.css" rel="stylesheet" />
+</head>
+<body>
+    <!--Header-->
+    <div class="header">
+        <div class="logo">
+            <div class="icon-sendo"></div>
+        </div>
+
+    </div>
+    <!--Content-->
+    <div class="content">
+        <div class="title">
+            <div class="text-confirm">Xác nhận thanh toán</div>
+        </div>
+        <!--Layout left-->
+        <div class="content-left">
+            <!--Panel địa chỉ nhận hàng-->
+            <div class="panel">
+                <div class="panel-header">
+                    <span><b>Địa chỉ nhận hàng</b></span>
+                </div>
+                <div class="panel-content">
+                    <div class="delivery-address">
+                        <span><b>Vũ Dương</b></span> |<span style="color: #828282"> 0984138953</span>
+                        <br />
+                        <span style="color: #828282">Nhà riêng: Liên quan, Thạch Thất, Hà Nội</span>
+                    </div>
+                </div>
+            </div>
+            <!--Phương thức thanh toán-->
+            <div class="panel">
+                <div class="panel-header">
+                    <span><b>Phương thức thanh toán</b></span>
+                </div>
+                <div class="panel-content">
+                    <div class="delivery-methods">
+                        <div class="item-delivery">
+                            <input type="radio" class="custom-radio" />
+                            <span><b>Chỉ giao trong giờ hành chính</b></span>
+                        </div>
+                        <br />
+                        <div class="item-delivery">
+                            <input type="radio" class="custom-radio" />
+                            <span><b>Giao cả tuần (trừ CN và ngày lễ)</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Phương thức giao hàng-->
+            <div class="panel">
+                <div class="panel-header">
+                    <span><b>Phương thức giao hàng</b></span>
+                </div>
+                <div class="panel-content">
+
+                    <ul>
+                        <li>
+                            <div class="option">
+                                <input type="radio" class="custom-radio" id="a1" name="abc1" value="b1dbd" />
+                            </div>
+                            <div class="content-payment">
+                                <ul>
+                                    <li>Tiền mặt khi nhận hàng</li>
+                                    <li>
+                                        <span style="color: #828282;">Phí thu hộ : <span style="font-weight: 500; color: #55ba78;">Miễn phí</span></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="option">
+                                <input type="radio" class="custom-radio" disabled />
+                            </div>
+                            <div class="content-payment disable-item">
+                                <ul>
+                                    <li>Thanh toán kết hợp</li>
+                                    <li>
+                                        <span style="color: #828282;">Ví Senpay thanh toán nhanh hơn và nhận nhiều ưu đãi hơn</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="option">
+                                <input type="radio" class="custom-radio" disabled />
+                            </div>
+                            <div class="content-payment disable-item">
+                                <ul>
+                                    <li>Ví SenPay</li>
+                                    <li>
+                                        <span style="color: #828282;">Ví Senpay thanh toán nhanh hơn và nhận nhiều ưu đãi hơn</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="option">
+                                <input type="radio" class="custom-radio" id="a2" name="abc2" value="b2dbd" />
+                            </div>
+                            <div class="content-payment ">
+                                <ul>
+                                    <li>Thẻ tín dụng/Thẻ ghi nợ</li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="option">
+                                <input type="radio" class="custom-radio" id="ecom_payment" name="paymentMethod" value="ecom_payment" />
+                            </div>
+                            <div class="content-payment">
+                                <ul>
+                                    <li>Thẻ ATM đã đăng kí InternetBanking</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="option">
+                                <input type="radio" class="custom-radio" disabled />
+                            </div>
+                            <div class="content-payment disable-item" style="border-bottom: none">
+                                <ul>
+                                    <li>Ngân hàng liên kết trực tiếp</li>
+                                    <li>
+                                        <span style="color: #828282;">Ví Senpay thanh toán nhanh hơn và nhận nhiều ưu đãi hơn</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Layout right-->
+        <div class="content-right">
+            <!--Mã ưu đãi-->
+            <div class="panel">
+                <div class="panel-header">
+                    <span><b>Mã ưu đãi Sendo</b></span>
+                </div>
+                <div class="panel-content">
+                    <div class="btn-select">
+                        Chọn/nhập mã
+                    </div>
+                </div>
+            </div>
+            <!--Thông tin đơn hàng-->
+            <div class="panel">
+                <div class="panel-header">
+                    <span><b>Thông tin đơn hàng</b></span>
+                </div>
+                <div class="panel-content">
+                    <div class="information-shop">
+                        <span>Bán bởi shop: Phan Nguyên Lâm </span>
+                    </div>
+                    <div class="items-product">
+                        <div class="img-product">
+                            <img src="https://inhuyhoang.com/wp-content/uploads/2020/08/in-hop-khau-trang-y-te-1024x1024.jpg" alt="product" />
+                        </div>
+                        <div class="info-product">
+                            <div class="name-product">
+                                <span>Hộp 50 cái khẩu trang 4 lớp </span>
+                            </div>
+                            <div class="price-product">
+                                <span style="color: red;">25.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note">
+                        <textarea class="input-note" placeholder="Ghi chú cho shop"></textarea>
+                    </div>
+                </div>
+            </div>
+            <!--Tổng tiền-->
+            <div class="panel">
+                <div class="panel-content">
+                    <div class="s-row">
+                        <span>Tạm tính</span>
+                        <span class="s-price">25.000đ</span>
+                    </div>
+                    <div class="s-row" style="margin-top: 16px">
+                        <span>Phí vận chuyển</span>
+                        <span class="s-price">47.000đ</span>
+                    </div>
+                    <hr />
+                    <div class="s-row">
+                        <span>Tổng thanh toán </span>
+                        <span class="s-price" style="color: red">72.000đ</span>
+                    </div>
+                    <div class="btn-pay">
+                        <div class="txt-pay">
+                            <span style="color: #fff;font-weight:bold">Đặt mua</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer"></div>
+    <script src="/lib/jquery-3.5.1.min.js"></script>
+    <script src="/js/page/checkout.js"></script>
+</body>
+</html>
