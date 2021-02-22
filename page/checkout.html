@@ -5,6 +5,8 @@
     <title>Đặt hàng</title>
     <link href="/css/page/checkout/main.css" rel="stylesheet" />
     <link href="/css/page/checkout/checkout.css" rel="stylesheet" />
+
+    <link href="../lib/icon/fontawesome-free-5.15.2-web/css/all.css" rel="stylesheet" />
 </head>
 <body>
     <!--Header-->
@@ -17,13 +19,15 @@
     <!--Content-->
     <div class="content">
         <div class="title">
-            <div class="text-confirm">Xác nhận thanh toán</div>
+            <div class="text-confirm">Xác Nhận Thanh Toán</div>
+            <!-- <h1>Xác nhận thanh toán</h1>-->
         </div>
         <!--Layout left-->
         <div class="content-left">
             <!--Panel địa chỉ nhận hàng-->
             <div class="panel">
                 <div class="panel-header">
+                    <i class="fas fa-map-marker-alt" style="color: #4a90e2;"></i>
                     <span><b>Địa chỉ nhận hàng</b></span>
                 </div>
                 <div class="panel-content">
@@ -37,18 +41,19 @@
             <!--Phương thức thanh toán-->
             <div class="panel">
                 <div class="panel-header">
-                    <span><b>Phương thức thanh toán</b></span>
+                    <i class="fas fa-truck" style="color: #4a90e2;"></i>
+                    <span><b>Phương thức giao hàng</b></span>
                 </div>
                 <div class="panel-content">
                     <div class="delivery-methods">
                         <div class="item-delivery">
                             <input type="radio" class="custom-radio" />
-                            <span><b>Chỉ giao trong giờ hành chính</b></span>
+                            <span>Chỉ giao trong giờ hành chính</span>
                         </div>
                         <br />
                         <div class="item-delivery">
                             <input type="radio" class="custom-radio" />
-                            <span><b>Giao cả tuần (trừ CN và ngày lễ)</b></span>
+                            <span>Giao cả tuần (trừ CN và ngày lễ)</span>
                         </div>
                     </div>
                 </div>
@@ -56,7 +61,8 @@
             <!--Phương thức giao hàng-->
             <div class="panel">
                 <div class="panel-header">
-                    <span><b>Phương thức giao hàng</b></span>
+                    <i class="fas fa-file-invoice-dollar" style="color: #4a90e2;"></i>
+                    <span><b>Phương thức thanh toán</b></span>
                 </div>
                 <div class="panel-content">
 
@@ -114,11 +120,17 @@
                         </li>
                         <li>
                             <div class="option">
-                                <input type="radio" class="custom-radio" id="ecom_payment" name="paymentMethod" value="ecom_payment" />
+                                <input type="radio" class="custom-radio" id="ecom-payment" name="paymentMethod" value="ecom-payment" />
                             </div>
                             <div class="content-payment">
                                 <ul>
                                     <li>Thẻ ATM đã đăng kí InternetBanking</li>
+                                    <li>
+                                        <span>Qua thẻ : Vietinbank</span>
+                                        <span id="ecom-paymentChange" style="        float: right;
+        color: #4a90e2
+">Thay đổi</span>
+                                    </li>
                                 </ul>
                             </div>
                         </li>
@@ -144,6 +156,8 @@
             <!--Mã ưu đãi-->
             <div class="panel">
                 <div class="panel-header">
+                    <i class="fab fa-centercode" style="color: #4a90e2;"></i>
+
                     <span><b>Mã ưu đãi Sendo</b></span>
                 </div>
                 <div class="panel-content">
@@ -155,6 +169,7 @@
             <!--Thông tin đơn hàng-->
             <div class="panel">
                 <div class="panel-header">
+                    <i class="fas fa-cart-plus" style="color: #4a90e2;"></i>
                     <span><b>Thông tin đơn hàng</b></span>
                 </div>
                 <div class="panel-content">
@@ -196,16 +211,21 @@
                         <span class="s-price" style="color: red">72.000đ</span>
                     </div>
                     <div class="btn-pay">
-                        <div class="txt-pay">
-                            <span style="color: #fff;font-weight:bold">Đặt mua</span>
-                        </div>
+                        <a href="gateway.html">
+                            <div class="txt-pay">
+                                <span style="color: #fff;font-weight:bold">Thanh toán</span>
+
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
 
         </div>
+
     </div>
     <!--Footer-->
+    <div style="clear:both;"></div>
     <div class="footer"></div>
     <script src="/lib/jquery-3.5.1.min.js"></script>
     <script src="/js/page/checkout.js"></script>

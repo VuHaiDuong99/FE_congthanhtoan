@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\css\\page",
+    "\\css\\page\\checkout",
+    "\\js",
+    "\\js\\page",
+    "\\page"
   ],
+  "SelectedNode": "\\css\\page\\checkout\\checkout1.css",
   "PreviewInSolutionExplorer": false
 }
