@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\merchant",
+    "\\merchant\\page"
   ],
+  "SelectedNode": "\\merchant\\page\\merchant.html",
   "PreviewInSolutionExplorer": false
 }
