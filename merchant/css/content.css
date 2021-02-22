@@ -8,9 +8,13 @@
 
     .content .header-con {
         height: 60px;
+        width: 70%;
         background-color: #ffffff;
         border-radius: 2px;
-        margin: 0 100px 12px 100px;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
         .content .header-con .title h3, p {
@@ -20,13 +24,17 @@
 
     .content .order {
         height: 280px;
+        width: 70%;
         background-color: #ffffff;
         margin: 0 100px 12px 100px;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
+        margin-left: auto;
+        margin-right: auto;
     }
 
         .content .order .order-left {
             position: relative;
-            width: calc(100% - 350px);
+            width: calc(100% - 25%);
             border-right: 1px solid #c7c7cd;
             float: left;
         }
@@ -86,6 +94,7 @@
                     background-size: contain;
                     float: left;
                 }
+
                 .content .order .order-left .row-3 .row-3-img-2 {
                     height: 60px;
                     width: 60px;
@@ -171,9 +180,9 @@
 .content .order .order-right {
     position: relative;
     top: 0;
-    left: calc(100% - 350px);
+    left: calc(100% - 25%);
     height: 280px;
-    width: 350px;
+    width: calc(100% - 77%);
     margin-right: 0;
 }
 
@@ -181,33 +190,35 @@
         position: absolute;
         top: 0;
         height: 30px;
-        width: 330px;
+        width: 100%;
         font-weight: bold;
         font-size: 16px;
         margin: 10px 10px 0 10px;
         border-bottom: 1px solid #c7c7cd;
     }
 
+
     .content .order .order-right .row-2 {
         position: absolute;
         height: 240px;
+        width: 100%;
     }
 
         .content .order .order-right .row-2 .prince {
-            position: absolute;
+            position: relative;
             top: 200px;
-            left: 180px;
-            width: 250px;
+            right: 20px;
+            width: 60%;
             height: 40px;
             font-size: 16px;
         }
 
         .content .order .order-right .row-2 button {
-            position: absolute;
-            top: 220px;
+            position: relative;
+            top: 180px;
             left: 0;
             height: 36px;
-            width: 320px;
+            width: 100%;
             margin: 15px 0 0 15px;
             background-color: #e5101d;
             border: none;
