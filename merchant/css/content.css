@@ -1,9 +1,10 @@
 .content {
-    top: 80px;
     left: 0;
     height: calc(100vh - 60px);
+    width: 100%;
     background-color: #f1f1f1;
 }
+
 
     .content .header-con {
         height: 60px;
@@ -24,6 +25,7 @@
     }
 
         .content .order .order-left {
+            position: relative;
             width: calc(100% - 350px);
             border-right: 1px solid #c7c7cd;
             float: left;
@@ -57,18 +59,18 @@
             .content .order .order-left .row-2 {
                 height: 60px;
             }
-                .content .order .order-left .row-2 .title{
+
+                .content .order .order-left .row-2 .title {
                     padding: 20px;
                 }
 
-                .content .order .order-left .row-3 {
-                    height: 100px;
-                }
+            .content .order .order-left .row-3 {
+                height: 100px;
+            }
 
                 .content .order .order-left .row-3 .row-3-col-1 {
-                    position: relative;
                     height: 100px;
-                    width: 400px;
+                    width: 30%;
                     border-right: 2px dashed #c7c7cd;
                     float: left;
                 }
@@ -84,6 +86,17 @@
                     background-size: contain;
                     float: left;
                 }
+                .content .order .order-left .row-3 .row-3-img-2 {
+                    height: 60px;
+                    width: 60px;
+                    margin-left: 20px;
+                    padding-top: 35px;
+                    background-image: url('../content/img/op.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    float: left;
+                }
 
                 .content .order .order-left .row-3 .row-3-title {
                     font-weight: bold;
@@ -93,25 +106,22 @@
                 }
 
                 .content .order .order-left .row-3 .row-3-col-2 {
-                    position: relative;
                     height: 100px;
-                    width: 200px;
+                    width: 30%;
                     border-right: 2px dashed #c7c7cd;
                     float: left;
                 }
 
                 .content .order .order-left .row-3 .row-3-col-3 {
-                    position: relative;
                     height: 100px;
-                    width: 100px;
+                    width: 14%;
                     border-right: 2px dashed #c7c7cd;
                     float: left;
                 }
 
                 .content .order .order-left .row-3 .row-3-col-4 {
-                    position: relative;
                     height: 100px;
-                    width: 100px;
+                    width: 12%;
                     border-right: 2px dashed #c7c7cd;
                     float: left;
                 }
@@ -119,16 +129,17 @@
                 .content .order .order-left .row-3 .row-3-col-5 {
                     position: relative;
                     height: 100px;
-                    width: 150px;
+                    width: 12%;
                     float: left;
                 }
-                    .content .order .order-left .row-3 .row-3-col-5 button{
+
+                    .content .order .order-left .row-3 .row-3-col-5 button {
                         border: none;
                         background: none;
                         outline: none;
                         color: #a5beec;
                         padding-left: 50px;
-                        padding-top: 10px;
+                        padding-top: 35px;
                         float: left;
                     }
 
@@ -136,8 +147,9 @@
                         height: 30px;
                         width: 30px;
                         padding-left: 180px;
-                        background-image: url('del.svg');
-                        background-size: contain;
+                        padding-top: 45px;
+                        background-image: url('../content/img/del.svg');
+                        background-size: inherit;
                         background-repeat: no-repeat;
                         background-position: center;
                     }
@@ -151,20 +163,25 @@
 .content .order .order-left .row-4 {
     height: 59px;
 }
-    .content .order .order-left .row-4 .title{
+
+    .content .order .order-left .row-4 .title {
         padding: 20px;
     }
 
-    .content .order .order-right {
-        position: absolute;
-        top: 132px;
-        left: calc(100% - 450px);
-        width: 350px;
-    }
+.content .order .order-right {
+    position: relative;
+    top: 0;
+    left: calc(100% - 350px);
+    height: 280px;
+    width: 350px;
+    margin-right: 0;
+}
 
     .content .order .order-right .row-1 {
-        position: relative;
+        position: absolute;
+        top: 0;
         height: 30px;
+        width: 330px;
         font-weight: bold;
         font-size: 16px;
         margin: 10px 10px 0 10px;
@@ -172,19 +189,23 @@
     }
 
     .content .order .order-right .row-2 {
-        position: relative;
-        top: 160px;
+        position: absolute;
+        height: 240px;
     }
 
         .content .order .order-right .row-2 .prince {
             position: absolute;
-            right: 20px;
+            top: 200px;
+            left: 180px;
+            width: 250px;
+            height: 40px;
             font-size: 16px;
         }
 
         .content .order .order-right .row-2 button {
             position: absolute;
-            top: 18px;
+            top: 220px;
+            left: 0;
             height: 36px;
             width: 320px;
             margin: 15px 0 0 15px;
