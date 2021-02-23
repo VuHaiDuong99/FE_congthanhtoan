@@ -205,8 +205,8 @@
                     </div>
                     <hr />
                     <div class="s-row">
-                        <span>Tổng thanh toán </span>
-                        <input class="s-price" style="color:red;" id="txtTongTien" type="text"/>
+                        <span style="line-height: 31px">Tổng thanh toán </span>
+                        <input class="s-price"  id="txtTongTien" type="text" style ="color:red;height: 31px; width: 65%;"/>
                     </div>
                     <div class="btn-pay">
                         <a>
@@ -236,96 +236,172 @@
             </div>
             <div class="payment-company">
                 <ul class="payment-list">
-                    <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://portal.vietcombank.com.vn/Resources/v3/img/logo.png" alt="">
-                        </div>
-                        <h3 class="payment-item-name">Vietcombank</h3>
+                    <li class="payment-search">
+                        <input class="search-input" type="text" name="search" id="search" placeholder="Tìm kiếm">
                     </li>
                     <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://www.sacombank.com.vn/Style%20Library/2018/images/Sacombank-Logo.png" alt="">
-                        </div>
-                        <h3 class="payment-item-name">Sacombank</h3>
-                    </li>
-                    <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://i0.wp.com/hopdungcardvisit.com/wp-content/uploads/2019/05/logo-ngan-hang-Vietinbank.png?resize=213%2C76&ssl=1" alt="">
-                        </div>
-                        <h3 class="payment-item-name">VietinBank</h3>
-                    </li>
-                    <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://i1.wp.com/hopdungcardvisit.com/wp-content/uploads/2019/05/logo-ngan-hang-Techcombank.png?resize=213%2C76&ssl=1" alt="">
-                        </div>
-                        <h3 class="payment-item-name">Techcombank</h3>
-                    </li>
-                    <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://i2.wp.com/hopdungcardvisit.com/wp-content/uploads/2019/05/logo-ngan-hang-BIDV.png?resize=213%2C76&ssl=1" alt="">
-                        </div>
-                        <h3 class="payment-item-name">BIDV</h3>
-                    </li>
-                    <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://i1.wp.com/hopdungcardvisit.com/wp-content/uploads/2019/05/logo-ngan-hang-VPbank.png?resize=213%2C76&ssl=1" alt="">
-                        </div>
-                        <h3 class="payment-item-name">VPBank</h3>
-                    </li>
-                    <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://i2.wp.com/hopdungcardvisit.com/wp-content/uploads/2019/05/logo-ngan-hang-MB-new2020.gif?resize=213%2C76&ssl=1" alt="">
-                        </div>
-                        <h3 class="payment-item-name">MB</h3>
-                    </li>
-                    <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://i1.wp.com/hopdungcardvisit.com/wp-content/uploads/2019/05/logo-ngan-hang-ACB.png?resize=213%2C76&ssl=1" alt="">
+                        <div id="ACB" class="payment-item-image">
+                            <img src="/image/ACB.jpg" alt="ACB">
                         </div>
                         <h3 class="payment-item-name">ACB</h3>
                     </li>
                     <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://i1.wp.com/hopdungcardvisit.com/wp-content/uploads/2019/05/TPbank-logo.png?resize=213%2C76&ssl=1" alt="">
+                        <div id="Agribank" class="payment-item-image">
+                            <img src="/image/agribank.jpg" alt="Agribank">
+                        </div>
+                        <h3 class="payment-item-name">Agribank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="AnBinhBank" class="payment-item-image">
+                            <img src="/image/anbinhbank.jpg" alt="AnBinhBank">
+                        </div>
+                        <h3 class="payment-item-name">AnBinhBank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="BIDV" class="payment-item-image">
+                            <img src="/image/bidv.jpg" alt="BIDV">
+                        </div>
+                        <h3 class="payment-item-name">BIDV</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="BacABank" class="payment-item-image">
+                            <img src="/image/BacABank.jpg" alt="BacABank">
+                        </div>
+                        <h3 class="payment-item-name">Bac A Bank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="BaovietBank" class="payment-item-image">
+                            <img src="/image/BaovietBank.jpg" alt="BaovietBank">
+                        </div>
+                        <h3 class="payment-item-name">BaovietBank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="EximBank" class="payment-item-image">
+                            <img src="/image/EximBank.jpg" alt="EximBank">
+                        </div>
+                        <h3 class="payment-item-name">EximBank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="GPBank" class="payment-item-image">
+                            <img src="/image/GPBank.jpg" alt="GPBank">
+                        </div>
+                        <h3 class="payment-item-name">GPBank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="HDBank" class="payment-item-image">
+                            <img src="/image/HDBank.jpg" alt="HDBank">
+                        </div>
+                        <h3 class="payment-item-name">HDBank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="KienLongBank" class="payment-item-image">
+                            <img src="/image/KienLongBank.jpg" alt="KienLongBank">
+                        </div>
+                        <h3 class="payment-item-name">KienLongBank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="LienVietPostBank" class="payment-item-image">
+                            <img src="/image/LienVietPostBank.jpg" alt="LienVietPostBank">
+                        </div>
+                        <h3 class="payment-item-name">LienVietPostBank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="MBBank" class="payment-item-image">
+                            <img src="/image/MBBank.jpg" alt="MBBank">
+                        </div>
+                        <h3 class="payment-item-name">MBBank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="MaritimeBank" class="payment-item-image">
+                            <img src="/image/maritimebank2.jpg" alt="MaritimeBank">
+                        </div>
+                        <h3 class="payment-item-name">MaritimeBank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="NamABank" class="payment-item-image">
+                            <img src="/image/NamABank.jpg" alt="NamABank">
+                        </div>
+                        <h3 class="payment-item-name">NamABank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="NamVietBank" class="payment-item-image">
+                            <img src="/image/NamVietBank.jpg" alt="NamVietBank">
+                        </div>
+                        <h3 class="payment-item-name">NamVietBank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="OceanBank" class="payment-item-image">
+                            <img src="/image/OceanBank.jpg" alt="OceanBank">
+                        </div>
+                        <h3 class="payment-item-name">OceanBank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="PhuongDong" class="payment-item-image">
+                            <img src="/image/PhuongDong.jpg" alt="PhuongDong">
+                        </div>
+                        <h3 class="payment-item-name">PhuongDong</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="PublicBank" class="payment-item-image">
+                            <img src="/image/PublicBank.jpg" alt="PublicBank">
+                        </div>
+                        <h3 class="payment-item-name">PublicBank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="SCB" class="payment-item-image">
+                            <img src="/image/SCB.jpg" alt="SCB">
+                        </div>
+                        <h3 class="payment-item-name">SCB</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="SHB" class="payment-item-image">
+                            <img src="/image/SHB.jpg" alt="SHB">
+                        </div>
+                        <h3 class="payment-item-name">SHB</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="SacomBank" class="payment-item-image">
+                            <img src="/image/SacomBank.jpg" alt="SacomBank">
+                        </div>
+                        <h3 class="payment-item-name">SacomBank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="SeaBank" class="payment-item-image">
+                            <img src="/image/SeaBank.jpg" alt="SeaBank">
+                        </div>
+                        <h3 class="payment-item-name">SeaBank</h3>
+                    </li>
+                    <li class="payment-item">
+                        <div id="TPBank" class="payment-item-image">
+                            <img src="/image/TPBank.jpg" alt="TPBank">
                         </div>
                         <h3 class="payment-item-name">TPBank</h3>
                     </li>
                     <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://i0.wp.com/hopdungcardvisit.com/wp-content/uploads/2019/05/LienVietPostBank-logo.png?resize=213%2C76&ssl=1" alt="">
+                        <div id="Techcombank" class="payment-item-image">
+                            <img src="/image/Techcombank.jpg" alt="Techcombank">
                         </div>
-                        <h3 class="payment-item-name">DongABank</h3>
+                        <h3 class="payment-item-name">Techcombank</h3>
                     </li>
                     <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://i1.wp.com/hopdungcardvisit.com/wp-content/uploads/2019/05/HSBC-bank-logo.png?resize=213%2C76&ssl=1" alt="">
+                        <div id="VIB" class="payment-item-image">
+                            <img src="/image/VIB.jpg" alt="VIB">
                         </div>
-                        <h3 class="payment-item-name">HSBC</h3>
+                        <h3 class="payment-item-name">VIB</h3>
                     </li>
                     <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://i0.wp.com/hopdungcardvisit.com/wp-content/uploads/2019/05/NCB-Bank-logo.png?resize=213%2C76&ssl=1" alt="">
+                        <div id="VPBank" class="payment-item-image">
+                            <img src="/image/VPBank.jpg" alt="VPBank">
                         </div>
-                        <h3 class="payment-item-name">PGBank</h3>
+                        <h3 class="payment-item-name">VPBank</h3>
                     </li>
                     <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://i1.wp.com/hopdungcardvisit.com/wp-content/uploads/2019/05/VIETBANK-logo.png?resize=199%2C49&ssl=1" alt="">
+                        <div id="VRB" class="payment-item-image">
+                            <img src="/image/VRB.jpg" alt="VRB">
                         </div>
-                        <h3 class="payment-item-name">VietBank</h3>
+                        <h3 class="payment-item-name">VRB</h3>
                     </li>
-                    <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://i0.wp.com/hopdungcardvisit.com/wp-content/uploads/2019/05/BAOVIET-bank-logo.png?resize=213%2C76&ssl=1" alt="">
-                        </div>
-                        <h3 class="payment-item-name">BaoVietBank</h3>
-                    </li>
-                    <li class="payment-item">
-                        <div class="payment-item-image">
-                            <img src="https://i0.wp.com/hopdungcardvisit.com/wp-content/uploads/2019/05/VietA-bank-logo.png?resize=213%2C76&ssl=1" alt="">
-                        </div>
-                        <h3 class="payment-item-name">VietABank</h3>
-                    </li>
+
                 </ul>
             </div>
             <div class="btn-payment">
